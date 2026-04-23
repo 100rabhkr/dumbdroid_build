@@ -135,7 +135,7 @@ build_treble() {
         SIGNED=true
         echo ""
     fi
-    mv $OUT/system.img ~/build-output/dumbdroid-$BUILD_DATE-${TARGET}-signed.img
+    mv $OUT/system.img ~/build-output/dumber_os-$BUILD_DATE-${TARGET}-signed.img
     #make vndk-test-sepolicy
 }
 
